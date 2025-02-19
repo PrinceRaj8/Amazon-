@@ -1,9 +1,16 @@
-import React from 'react';
+import React from "react";
+import "./Header.css";
 
 function Header() {
   return (
-    <header style={{ background: '#232f3e', color: 'white', padding: '10px', textAlign: 'center' }}>
-      <h1>Amazon Clone</h1>
+    <header className="header">
+      <div className="logo">Amazon Clone</div>
+      <input type="text" placeholder="Search Amazon" className="search-bar" />
+      <div className="nav-links">
+        <span>Sign In</span>
+        <span>Orders</span>
+        <span>Cart</span>
+      </div>
     </header>
   );
 }
