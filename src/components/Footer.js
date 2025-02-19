@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <footer style={{ background: '#232f3e', color: 'white', padding: '10px', textAlign: 'center', marginTop: '20px' }}>
-      <p>&copy; 2025 Amazon Clone</p>
+    <footer className="footer">
+      <p>Amazon Clone © 2025 | Developed by Prince Raj</p>
     </footer>
   );
 }
